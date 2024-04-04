@@ -1,0 +1,31 @@
+@use '../abstracts/' as *;
+
+.accordion__panel {
+  display: grid;
+  grid-template-rows: min-content 0fr;
+  transition: grid-template-rows 500ms ease-in-out;
+  padding-block: 2em;
+  position: relative;
+  isolation: isolate;
+}
+
+.accordion__panel + .accordion__panel::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 0 auto;
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+.accordion__panel[data-state='opened'] {
+  grid-template-rows: min-content 1fr;
+}
+
+.accordion__content {
+  overflow: hidden;
+  padding: 0;
+}
+
+.accordion__content p {
+  padding-block-start: 1em;
+}
