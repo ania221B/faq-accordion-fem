@@ -1,15 +1,32 @@
-$ff-primary: 'Lato', sans-serif;
-$ff-secondary: 'Abril Fatface', serif;
+@font-face {
+  font-family: 'worksans';
+  font-weight: 400;
+  src: url('/assets/fonts/worksans-regular-webfont.woff2') format(woff2),
+    url('/src/assets/fonts/worksans-regular-webfont.woff') format(woff);
+}
+
+@font-face {
+  font-family: 'worksans';
+  font-weight: 600;
+  src: url('/assets/fonts/worksans-semibold-webfont.woff2') format(woff2),
+    url('/src/assets/fonts/worksans-semibold-webfont.woff') format(woff);
+}
+
+@font-face {
+  font-family: 'worksans';
+  font-weight: 700;
+  src: url('/assets/fonts/worksans-bold-webfont.woff2') format(woff2),
+    url('/src/assets/fonts/worksans-bold-webfont.woff') format(woff);
+}
+
+$ff-primary: 'worksans', sans-serif;
 
 $font-sizes: (
-  900: clamp(2.5rem, 0.5rem + 10vw, 5rem),
-  800: clamp(2.5rem, 0.5rem + 7vw, 3.75rem),
-  700: clamp(1.5rem, 0.5rem + 5vw, 2rem),
-  600: clamp(1.4rem, 0.5rem + 3vw, 1.6875rem),
-  500: 1.3125rem,
-  400: 1.125rem,
-  300: 1rem,
+  700: clamp(2rem, 0.5rem + 5vw, 3.5rem),
+  500: clamp(1rem, 0.5rem + 3vw, 1.125rem),
+  400: clamp(0.875rem, 0.5rem + 2vw, 1rem),
 );
 
 $fw-400: 400;
+$fw-600: 600;
 $fw-700: 700;
