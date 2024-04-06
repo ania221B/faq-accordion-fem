@@ -15,7 +15,7 @@ function AccordionPanel ({ id, question, answer }) {
           aria-label={isOpen ? `hide answer` : `show answer`}
           aria-controls={`accordion__content-${id}`}
           aria-expanded={isOpen}
-          className='button'
+          className='button accordion__toggle'
           onClick={() => {
             togglePanel(id)
           }}
