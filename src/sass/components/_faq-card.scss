@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+.faq-card {
+  --flow-spacer: 1.5rem;
+  background-color: clr(neutral, 100);
+  padding-block: $card-body-padding;
+  padding-inline: $card-body-padding;
+  border-radius: size(8);
+
+  @include mq(medium) {
+    --flow-spacer: 2rem;
+  }
+}
