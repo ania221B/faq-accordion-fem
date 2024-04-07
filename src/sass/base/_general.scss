@@ -1,7 +1,7 @@
 @use '../abstracts/' as *;
 
 body {
-  min-height: 100vh;
+  margin: 0;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: $ff-primary;
