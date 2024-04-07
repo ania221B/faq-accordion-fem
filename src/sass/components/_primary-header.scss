@@ -1,0 +1,7 @@
+@use '../abstracts/' as *;
+
+.primary-header {
+  display: flex;
+  align-items: center;
+  gap: 0 $card-gap;
+}
