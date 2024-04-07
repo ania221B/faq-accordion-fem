@@ -5,6 +5,9 @@
   padding-block: $card-body-padding;
   padding-inline: $card-body-padding;
   border-radius: size(8);
+  box-shadow: 0px 6px 5px rgba(clr(primary, 500), 0.03),
+    0px 22px 18px rgba(clr(primary, 500), 0.042),
+    0px 100px 80px rgba(clr(primary, 500), 0.07);
 
   @include mq(medium) {
     --flow-spacer: 2rem;
