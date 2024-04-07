@@ -43,12 +43,23 @@
   grid-template-columns: 1fr max-content;
   gap: $card-gap;
   align-items: center;
-}
 
-.accordion__toggle span {
-  display: inline-block;
-  justify-self: start;
-  text-align: left;
+  span {
+    display: inline-block;
+    justify-self: start;
+    text-align: left;
+  }
+
+  &:hover span,
+  &:focus-visible span {
+    color: clr(secondary, 400);
+  }
+
+  &:focus-visible {
+    outline: none;
+    outline: 2px dotted clr(secondary, 400);
+    outline-offset: size(8);
+  }
 }
 
 .accordion__content {
