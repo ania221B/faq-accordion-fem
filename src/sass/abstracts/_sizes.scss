@@ -13,9 +13,12 @@ $sizes: (
 $bg-min-height: 14.5rem;
 $bg-max-height: 20rem;
 
-$card-body-padding: clamp(1.5rem, 1.5vw, 2rem);
+$card-body-padding: clamp(1.5em, 1.5em + 1vw, 2.5em);
 $card-gap: 1.5rem;
 $card-base-width: 16rem;
+
+$deco-min-size: 1.25rem;
+$deco-max-size: 2.25rem;
 
 $container-padding-inline: 1.5rem;
 $container-max-width: 60rem;
