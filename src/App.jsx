@@ -5,7 +5,7 @@ import bgMobile from './assets/images/background-pattern-mobile.svg'
 function App () {
   return (
     <main>
-      <section className='main-grid'>
+      <section className='stack-grid'>
         <picture>
           <source srcSet={bgDesktop} media='(min-width: 45em)' />
           <img
