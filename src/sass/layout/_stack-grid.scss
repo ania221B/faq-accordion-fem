@@ -1,6 +1,6 @@
 @use '../abstracts/' as *;
 
-.main-grid {
+.stack-grid {
   --max-width: #{$container-max-width-small};
   --padding-inline: #{$container-padding-inline};
   display: grid;
