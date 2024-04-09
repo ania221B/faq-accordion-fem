@@ -4,4 +4,8 @@
   display: flex;
   align-items: center;
   gap: 0 $card-gap;
+
+  svg {
+    width: clamp($deco-min-size, $deco-min-size + 1vw, $deco-max-size);
+  }
 }
