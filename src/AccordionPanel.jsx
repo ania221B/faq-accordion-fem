@@ -9,7 +9,7 @@ function AccordionPanel ({ id, question, answer }) {
       className='accordion__panel'
       data-state={isOpen ? 'opened' : 'closed'}
     >
-      <h2 className='accordion__title'>
+      <h2 id={`panel-${id}-title`} className='accordion__title'>
         <button
           type='button'
           aria-label={isOpen ? `hide answer` : `show answer`}
@@ -50,7 +50,11 @@ function AccordionPanel ({ id, question, answer }) {
           )}
         </button>
       </h2>
-      <div className='accordion__content' id={`accordion__content-${id}`}>
+      <div
+        className='accordion__content'
+        id={`accordion__content-${id}`}
+        aria-labelledby={`panel-${id}-title`}
+      >
         <div className='accordion__content-wrapper'>
           <p>{answer}</p>
         </div>
