@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](./src/assets/screenshots/faq-accordion-fem-mobile.png)
-![Desktop](./src/assets/screenshots/faq-accordion-fem-desktop.png)
+![Mobile](./assets/screenshots/faq-accordion-fem-mobile.png)
+![Desktop](./assets/screenshots/faq-accordion-fem-desktop.png)
 
 ### Links
 
