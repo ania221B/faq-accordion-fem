@@ -10,7 +10,7 @@
       var(--max-width)
     )
     minmax(var(--padding-inline), 1fr);
-  grid-template-rows: clamp(7.5rem, 7.5rem + 5vw, 11.47rem) 1fr;
+  grid-template-rows: $padding-section 1fr;
 
   & > picture {
     grid-column: 1 / -1;

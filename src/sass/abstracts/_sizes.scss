@@ -19,6 +19,7 @@ $card-base-width: 16rem;
 
 $deco-min-size: 1.25rem;
 $deco-max-size: 2.25rem;
+$deco-line-height: 1px;
 
 $container-padding-inline: 1.5rem;
 $container-max-width: 60rem;
@@ -29,5 +30,7 @@ $container-max-width-full-bleed: 100%;
 $grid-gap: 1.5rem;
 $flex-group-gap: 1rem;
 
+$outline-size: 2px;
+
 $padding-hero: clamp(15rem, 15vh, 20rem);
-$padding-section: clamp(3rem, 10vh, 7rem);
+$padding-section: clamp(7.5rem, 7.5rem + 5vw, 11.47rem);
